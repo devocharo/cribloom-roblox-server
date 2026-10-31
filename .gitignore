@@ -1,0 +1,150 @@
+# ========== SENSITIVE / SECRETS ==========
+# Never commit these files - they contain credentials, tokens, keys
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+*.secret
+*.token
+*.password
+*.credential
+*secret*
+*credential*
+*password*
+*api*key*
+*access*token*
+*auth*token*
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+
+# Config files that may contain secrets
+config.json
+config.local.json
+settings.json
+settings.local.json
+secrets.json
+secrets.yaml
+secrets.yml
+private.json
+private.yaml
+private.yml
+
+# ========== ROBLOX STUDIO ==========
+# Studio auto-generated / local files
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+.rbxl
+.rbxlx
+
+# Studio settings (may contain user-specific paths)
+.studio/
+studio_settings.json
+UserSettings/
+
+# ========== IDE / EDITOR ==========
+# VS Code
+.vscode/
+*.swp
+*.swo
+*~
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim
+*.swp
+
+# ========== OS ==========
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ========== LOGS / TEMP ==========
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+logs/
+tmp/
+temp/
+cache/
+*.pid
+*.seed
+*.pid.lock
+
+# ========== NODE / BUILD TOOLS ==========
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+
+# ========== TESTING ==========
+coverage/
+.nyc_output/
+*.lcov
+*.coverage
+
+# ========== DOCKER ==========
+.dockerignore
+docker-compose.override.yml
+
+# ========== SPECIFIC TO THIS PROJECT ==========
+# DataStore test files
+DataStoreEditor/
+*.datastore
+
+# Local development overrides
+LocalScripts/
+DevScripts/
+TestScripts/
+
+# Rojo (if used)
+.project.json
+rojo.json
+rojo.project.json
+default.project.json
+
+# ========== KEEP THESE (tracked) ==========
+# !README.md
+# !*.lua
+# !*.md
+# !.gitignore

@@ -93,4 +93,4 @@ MIT — Build something beautiful with it.
 
 ---
 
-*Made with 💜 for the Roblox community*
+*Made with Devocharo 🤖 for the Roblox community*
